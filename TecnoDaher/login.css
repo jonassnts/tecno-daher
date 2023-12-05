@@ -1,0 +1,38 @@
+.titulo_form {
+    color: white;
+}
+
+.texto_form {
+    color: white;
+}
+label {
+    color: white;
+    margin-top: 32px;
+}
+
+.are__formulario {
+    display: flex;
+    flex-direction: column; /* Alterado de "space-around" para "column" */
+    align-items: center; /* Centraliza os elementos no eixo transversal (vertical) */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: auto;
+    height: 35px;
+    width: 70%;
+    border-radius: 5px;
+}
+
+.clique {
+    margin-top: 32px;
+    height: 35px;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
